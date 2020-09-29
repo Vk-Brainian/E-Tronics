@@ -1,0 +1,61 @@
+*{
+    transition: 1s all !important;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    /* user-select: none; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* html, body{
+  overflow-x: hidden !important;
+} */
+
+      /* width */
+      ::-webkit-scrollbar {
+        width: 14px !important;
+        /* border-radius: 34px !important; */
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: #000 !important;
+        border-right: thin solid #fff !important;
+        border-left: thin solid #fff !important;
+        content: icon !important;
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: var(--primary) !important;
+        border-radius: 5px !important;
+        cursor: pointer !important;
+        width: 20px !important;
+        border: thin solid #fff !important;
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        border: none !important;
+        /* box-shadow: -3px 0px 5px 5px !important; */
+        cursor: pointer !important;
+    }
+    
+    ::-webkit-scrollbar-button{
+      color: #fff !important;
+      width: 100% !important;
+      background: var(--primary) !important;
+      border: thin solid #fff !important;
+      height: 12px !important;
+    }
+    
+    ::-webkit-file-upload-button{
+      background-color: var(--primary);
+      color: #fff;
+      font-weight: 400;
+      padding: 4px;
+      border-radius: 6px;
+      border: none;
+      cursor: pointer;
+      outline-color: #007bff73 !important;
+      outline-width: 25px !important;
+    }

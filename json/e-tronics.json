@@ -1,0 +1,28 @@
+{
+    "short_name": "E-Tronics",
+    "name": "E-Tronics",
+    "description": "The Future of Energy is here",
+    "icons": [
+      {
+        "src": "../images/192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "../images/favicon.png",
+        "type": "image/png",
+        "sizes": "73x73"
+      },
+      {
+        "src": "../images/512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "../",
+    "background_color": "#094c8f",
+    "display": "standalone",
+    "scope": "../",
+    "orientation": "portrait-primary",
+    "theme_color": "#094c8f"
+  }
