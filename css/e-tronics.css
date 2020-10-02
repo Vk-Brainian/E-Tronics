@@ -11,11 +11,12 @@
     box-sizing: border-box;
     /* user-select: none; */
     font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word !important;
+    text-overflow: ellipsis !important;
 }
 
-h1, .h1{
-  font-family: 'Polya';
-  color: #000;
+.polya{
+  font-family: 'Polya' !important;
 }
 
 /* html, body{
@@ -60,7 +61,7 @@ h1, .h1{
       height: 12px !important;
     }
     
-    ::-webkit-file-upload-button{
+    /* ::-webkit-file-upload-button{
       background-color: var(--primary);
       color: #fff;
       font-weight: 400;
@@ -70,4 +71,19 @@ h1, .h1{
       cursor: pointer;
       outline-color: #007bff73 !important;
       outline-width: 25px !important;
+    } */
+
+    .fixed-container{
+      width: 300px;
+    }
+
+    .pre-footer-bg{
+      background-image: url(./img/pre-footer-bg.jpg) !important;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+    }
+
+    .navbar-toggler{
+      outline-color: var(--primary) !important;
     }

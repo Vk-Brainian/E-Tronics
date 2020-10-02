@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+}
+
+.nav-image{
+    height: 15px;
+    width: 100px;
+}
+.contact{
+    background: #094c8f;
+    border-radius: 20px;    
+}
+
+.image{
+    background-image: linear-gradient(45deg, #00000073,#1f153a33),url(../image/show8.jpg);
+    height: 400px;
+    padding-top: 170px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+.text-shadow{
+    filter: drop-shadow(-3px -3px 2px rgba(255,255,255,0.3))
+    drop-shadow(5px 5px 5px rgba(0,0,0,0.2))
+    drop-shadow(15px 15px 5px rgba(0,0,0,0.2));
+    text-shadow: 2px 2px 1px 1px #000 !important;
+}
+.line{
+    height: 2px;
+    width: 70px;
+    background: red;
+}
+/* .height{
+    height: 250px;
+    width: 350px;
+} */
+.tyle{
+    height: 250px;
+}
+.high{
+      
+    width: 150px;
+}
+.position{
+    position: absolute;
+}
+.div{
+    height: 2px;
+    width: 70px;
+    background: red;
+}
+.fontstyle{
+    font-family: monospace;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 100;
+}
+.para{
+    font-family: monospace;
+    text-align: center;
+    font-size: 14px;
+}
+.pre-footer-bg{
+    background-image: url(../image/pexels-henry-&-co-1939485.jpg);
+    background-position: center;
+    position: relative;
+
+    
+}
+.absolute-position{
+    background-position: absolute;
+    
+}
+@font-face{
+  font-family: "POLYA";
+  src: url(../Polya\ Font/POLYA.otf);
+}
+.style{
+    font-family: 'Polya';
+    color: red;
+}
+.list-style-none{
+    list-style: none;
+}
+.semi-footer{
+    height: 150px;
+}
+ 
+::-webkit-file-upload-button{
+    background-color: #094c8f;
+    color: #fff;
+    font-weight: 400;
+    padding: 4px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    outline-color: #007bff73 !important;
+    outline-width: 25px !important;
+  }
+
+  .form-file{
+    padding: 8px !important;
+    height: 50px !important;
+  }
+
+  .fixed-container{
+      height: 100px !important;
+  }
+
+  textarea{
+    height: 100px !important;
+    max-height: 150px !important;
+  }
+  /* @media screen and (min-width: 480px) {
+      hr{
+          appearance: ;
+      }
+    #leftsidebar {width: 200px; float: left;}
+    #main {margin-left: 216px;}
+  } */
+  @media screen and (max-width: 600px) {
+  .image{
+      background-image:linear-gradient(45deg, rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../image/pexels-pixabay-207489.jpg);
+  }
+}
